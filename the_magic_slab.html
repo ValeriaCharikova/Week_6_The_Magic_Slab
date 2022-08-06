@@ -17,6 +17,7 @@
     <style>
       .body {
         display: grid;
+        min-height: 100vh;
       }
       .header {
         display: flex;
@@ -41,6 +42,9 @@
       nav .navigation-menu-two:hover {
         text-decoration: underline;
         cursor: pointer;
+      }
+      .navigation-menu-two {
+        margin-left: 23px;
       }
       .logo {
         font-family: "Roboto";
@@ -94,6 +98,9 @@
       }
       .section-menu {
         background-color: #fec77e;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        justify-items: center;
       }
       .section-sponsors {
         background-color: #fec77e;
@@ -139,14 +146,39 @@
     </section>
     <section class="section-menu">
       <a href=""
-        ><img src="assets/img/menu-button-left.png" alt="menu-button-left"
+        ><img
+          class="section-menu-pic"
+          src="assets/img/menu-button-left.png"
+          alt="menu-button-left"
       /></a>
-      <img src="assets/img/menu-one.png" alt="menu-one" />
-      <img src="assets/img/menu-two.png" alt="menu-two" />
-      <img src="assets/img/menu-three.png" alt="menu-three" />
-      <img src="assets/img/menu-four.png" alt="menu-four" />
       <a href=""
-        ><img src="assets/img/menu-buton-right.png" alt="menu-buton-right"
+      > <img
+        class="section-menu-pic"
+        src="assets/img/menu-one.png"
+        alt="menu-one"
+      /> </a>
+      <a href=""><img
+        class="section-menu-pic"
+        src="assets/img/menu-two.png"
+        alt="menu-two"
+      /> </a> 
+      <a href=""
+        > <img
+        class="section-menu-pic"
+        src="assets/img/menu-three.png"
+        alt="menu-three"
+      /> </a>
+      <a href=""
+        ><img
+        class="section-menu-pic"
+        src="assets/img/menu-four.png"
+        alt="menu-four"
+      /> </a>
+      <a href=""
+        ><img
+          class="section-menu-pic"
+          src="assets/img/menu-buton-right.png"
+          alt="menu-buton-right"
       /></a>
     </section>
     <section class="section-sponsors">
