@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="assets/styles/normalize.css" />
 
     <style>
+      .body {
+        display: grid;
+      }
       .header {
         display: flex;
         background-color: #fec77e;
@@ -68,13 +71,16 @@
         background-color: #961f31;
         cursor: pointer;
       }
+
+      .section-hero {
+        background-color: #fec77e;
+      }
       .section-hero-heading {
         font-family: "Roboto";
         font-style: normal;
         font-weight: 400;
         font-size: 196px;
         line-height: 202px;
-        text-align: center;
         color: #cc2a41;
       }
       .section-hero-text {
@@ -86,6 +92,16 @@
         text-align: center;
         color: #bd571b;
       }
+      .section-menu {
+        background-color: #fec77e;
+      }
+      .section-sponsors {
+        background-color: #fec77e;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+      }
       .section-sponsors-heading {
         font-family: "Roboto";
         font-style: normal;
@@ -94,10 +110,15 @@
         line-height: 48px;
         text-align: center;
         color: #cc2a41;
+        grid-row: 1/2;
+        grid-column: 3/5;
+      }
+      .section-sponsors-pic {
+        grid-row: 2/3;
       }
     </style>
   </head>
-  <body>
+  <body class="body">
     <header class="header">
       <nav class="navigation">
         <ul class="navigation-menu">
@@ -112,7 +133,7 @@
       <h1 class="section-hero-heading">
         Freshly <br />
         Churned <br />
-        Every DayS
+        Every Day
       </h1>
       <p class="section-hero-text">HOVER FOR FLAVORS</p>
     </section>
@@ -130,12 +151,36 @@
     </section>
     <section class="section-sponsors">
       <h1 class="section-sponsors-heading">FEATURED IN</h1>
-      <img src="./assets/img/sponsor-one.png" alt="sponsor-one" />
-      <img src="./assets/img/sponsor-two.png" alt="sponsor-two" />
-      <img src="./assets/img/sponsor-three.png" alt="sponsor-three" />
-      <img src="./assets/img/sponsor-four.png" alt="sponsor-four" />
-      <img src="./assets/img/sponsor-five.png" alt="sponsor-five" />
-      <img src="./assets/img/sponsor-six.png" alt="sponsor-six" />
+      <img
+        class="section-sponsors-pic"
+        src="./assets/img/sponsor-one.png"
+        alt="sponsor-one"
+      />
+      <img
+        class="section-sponsors-pic"
+        src="./assets/img/sponsor-two.png"
+        alt="sponsor-two"
+      />
+      <img
+        class="section-sponsors-pic"
+        src="./assets/img/sponsor-three.png"
+        alt="sponsor-three"
+      />
+      <img
+        class="section-sponsors-pic"
+        src="./assets/img/sponsor-four.png"
+        alt="sponsor-four"
+      />
+      <img
+        class="section-sponsors-pic"
+        src="./assets/img/sponsor-five.png"
+        alt="sponsor-five"
+      />
+      <img
+        class="section-sponsors-pic"
+        src="./assets/img/sponsor-six.png"
+        alt="sponsor-six"
+      />
     </section>
   </body>
 </html>
