@@ -130,3 +130,14 @@ nav .navigation-menu-two:hover {
   color: #000000;
   margin-left: 64px;
 }
+.section-text {
+  height: 896px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  background-color: #cc2a41;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 62px;
+  color: #ece9e9;
+}
