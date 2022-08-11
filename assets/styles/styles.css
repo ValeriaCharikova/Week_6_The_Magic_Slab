@@ -207,6 +207,8 @@ nav .navigation-menu-two:hover {
   font-weight: 400;
   background-color: #cc2a41;
   display: grid;
+  height: 1027px;
+  align-items: center;
 }
 .section-network-text {
   text-align: center;
@@ -228,4 +230,51 @@ nav .navigation-menu-two:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.footer {
+  display: grid;
+  background-image: url(img/background2.png);
+  background-color: #fec77e;
+  font-weight: 400;
+}
+.footer-heading {
+  font-size: 96px;
+  line-height: 134px;
+  text-align: center;
+  color: #cc2a41;
+  border-bottom: 1px solid black;
+}
+.address {
+  display: flex;
+  justify-content: space-around;
+}
+.address-heading {
+  font-size: 88px;
+  line-height: 114px;
+  color: #cc2a41;
+}
+.address-phone {
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  color: #cc2a41;
+}
+.address-text {
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #000000;
+}
+.footer-info-one,
+.footer-info-two {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+.footer-info-three {
+  font-size: 21px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+  align-self: flex-end;
 }
