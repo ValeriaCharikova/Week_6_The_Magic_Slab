@@ -73,14 +73,14 @@ nav .navigation-menu-two:hover {
 .section-menu {
   background-color: #fec77e;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(6, 1fr);
   justify-items: center;
 }
 .section-sponsors {
   background-color: #fec77e;
   display: grid;
   justify-items: center;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 1fr 1fr;
   height: 416px;
 }
@@ -101,7 +101,7 @@ nav .navigation-menu-two:hover {
   font-weight: 400;
   display: grid;
   grid-template-columns: 2fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
 }
 .advert {
   border: 1px solid rgba(204, 42, 65, 1);
@@ -110,19 +110,23 @@ nav .navigation-menu-two:hover {
   font-size: 64px;
   line-height: 77px;
   color: #cc2a41;
+  margin-left: 64px;
 }
 .section-advert-heading-two {
   font-size: 53px;
   line-height: 77px;
   color: #cc2a41;
+  margin-left: 64px;
 }
 .section-advert-heading-three {
   font-size: 54px;
   line-height: 77px;
   color: #cc2a41;
+  margin-left: 64px;
 }
 .section-advert-text {
   font-size: 24px;
   line-height: 36px;
   color: #000000;
+  margin-left: 64px;
 }
