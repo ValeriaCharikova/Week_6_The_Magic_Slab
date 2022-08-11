@@ -146,6 +146,10 @@ nav .navigation-menu-two:hover {
   height: 800px;
   font-weight: 400;
 }
+.section-new-text {
+  background-color: #ece9e9;
+  opacity: 77%;
+}
 .section-new-heading {
   display: flex;
   justify-content: center;
@@ -160,13 +164,11 @@ nav .navigation-menu-two:hover {
   line-height: 86px;
   color: #000000;
 }
-.section-new-text {
+.section-new-paragraph {
   font-size: 24px;
   line-height: 36px;
   text-align: center;
   color: #000000;
-  background-color: #ece9e9;
-  opacity: 77%;
 }
 .section-new-try-today {
   position: absolute;
@@ -200,4 +202,30 @@ nav .navigation-menu-two:hover {
   position: absolute;
   left: 600px;
   top: 5700px;
+}
+.section-network {
+  font-weight: 400;
+  background-color: #cc2a41;
+  display: grid;
+}
+.section-network-text {
+  text-align: center;
+}
+.section-network-heading {
+  font-size: 112px;
+  line-height: 168px;
+  text-align: center;
+  color: #ece9e9;
+  text-decoration: none;
+}
+.section-network-paragraph {
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #ece9e9;
+}
+.section-network-images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
