@@ -144,8 +144,6 @@ nav .navigation-menu-two:hover {
 .section-new {
   background-image: url(img/background-image.png);
   height: 800px;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
 }
 .section-new-heading {
@@ -178,4 +176,28 @@ nav .navigation-menu-two:hover {
   line-height: 32px;
   text-align: center;
   color: #cc2a41;
+}
+.section-cater {
+  background-color: #fec77e;
+  height: 818px;
+  background-image: url(img/background.png);
+  display: flex;
+  font-weight: 400;
+  color: #cc2a41;
+}
+.section-cater-text-heading {
+  font-size: 112px;
+  line-height: 90px;
+}
+.section-cater-text-paragraph {
+  font-size: 24px;
+  line-height: 36px;
+}
+.section-cater-request {
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+  position: absolute;
+  left: 600px;
+  top: 5700px;
 }
