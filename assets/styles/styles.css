@@ -141,3 +141,41 @@ nav .navigation-menu-two:hover {
   line-height: 62px;
   color: #ece9e9;
 }
+.section-new {
+  background-image: url(img/background-image.png);
+  height: 800px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+}
+.section-new-heading {
+  display: flex;
+  justify-content: center;
+}
+.section-new-heading-one {
+  font-size: 72px;
+  line-height: 86px;
+  color: #cc2a41;
+}
+.section-new-heading-two {
+  font-size: 64px;
+  line-height: 86px;
+  color: #000000;
+}
+.section-new-text {
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #000000;
+  background-color: #ece9e9;
+  opacity: 77%;
+}
+.section-new-try-today {
+  position: absolute;
+  margin-left: 1171px;
+  top: 4500px;
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+  color: #cc2a41;
+}
