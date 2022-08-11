@@ -1,6 +1,9 @@
 .body {
   display: grid;
   min-height: 100vh;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
 }
 .header {
   display: flex;
@@ -11,9 +14,6 @@
   height: 112px;
 }
 .navigation {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
   font-size: 19px;
   line-height: 29px;
   color: #000000;
@@ -30,9 +30,6 @@ nav .navigation-menu-two:hover {
   margin-left: 23px;
 }
 .logo {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
   font-size: 80px;
   line-height: 120px;
   color: #cc2a41;
@@ -44,9 +41,6 @@ nav .navigation-menu-two:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border: 1px solid #cc2a41;
   border-radius: 10px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
   font-size: 16px;
   line-height: 24px;
   color: #ece9e9;
@@ -60,20 +54,15 @@ nav .navigation-menu-two:hover {
 }
 .section-hero {
   background-color: #fec77e;
+  font-weight: 400;
 }
 .section-hero-heading {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 196px;
   line-height: 202px;
   color: #cc2a41;
   text-align: center;
 }
 .section-hero-text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 27px;
   line-height: 27px;
   color: #bd571b;
@@ -96,8 +85,6 @@ nav .navigation-menu-two:hover {
   height: 416px;
 }
 .section-sponsors-heading {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 31px;
   line-height: 48px;
@@ -111,6 +98,7 @@ nav .navigation-menu-two:hover {
 }
 .section-advert {
   background-color: #ece9e9;
+  font-weight: 400;
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -119,33 +107,21 @@ nav .navigation-menu-two:hover {
   border: 1px solid rgba(204, 42, 65, 1);
 }
 .section-advert-heading-one {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 64px;
   line-height: 77px;
   color: #cc2a41;
 }
 .section-advert-heading-two {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 53px;
   line-height: 77px;
   color: #cc2a41;
 }
 .section-advert-heading-three {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 54px;
   line-height: 77px;
   color: #cc2a41;
 }
 .section-advert-text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 24px;
   line-height: 36px;
   color: #000000;
